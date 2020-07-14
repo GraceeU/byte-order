@@ -28,7 +28,7 @@ int main(void){
         }
         
 	
-	if((rfp1= fopen("five.bin","r"))==NULL){
+	if((rfp1= fopen("five-hundred.bin","r"))==NULL){
 		perror("fopen: five.bin");
 		exit(1);
 	}
